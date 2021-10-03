@@ -2,8 +2,7 @@
   "name": "en-bios",
   "version": "1.0.0",
   "scripts": {
-    "dev": "webpack serve",
-    "build": "webpack",
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -35,5 +34,20 @@
     "webpack": "^5.20.1",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enretro/en-bios.git"
+  },
+  "keywords": [
+    "job"
+  ],
+  "author": "I.K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enretro/en-bios/issues"
+  },
+  "homepage": "https://github.com/Enretro/en-bios#readme",
+  "description": ""
 }
